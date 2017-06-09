@@ -1,0 +1,16 @@
+name = CMA Reservations: Email
+package = Community Media Advanced
+description = "Sends confirmation or receipt emails when reservation is created or confirmed"
+
+core = 7.x
+
+dependencies[] = reservations
+dependencies[] = token
+
+configure = admin/config/reservations/email
+
+version = "7.x-2.0"
+core = "7.x"
+project = "reservations_email"
+project_status_url = https://github.com/cm-advanced/reservations_email
+
